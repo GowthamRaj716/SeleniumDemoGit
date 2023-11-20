@@ -31,17 +31,17 @@ public class DropDown {
         }
 
         s1.deselectAll();
-//
-//        Select s1=new Select(multidown);
-//        s1.selectByIndex(2);
-//        s1.selectByValue("bw");
-//        s1.selectByVisibleText("Black Panther");
-//      List<WebElement>l= s1.getAllSelectedOptions();
-//        for (WebElement web:l) {
-//
-//            System.out.println(web.getText());
-//
-//        }
+
+        Select s2=new Select(multidown);
+        s1.selectByIndex(2);
+        s1.selectByValue("bw");
+        s1.selectByVisibleText("Black Panther");
+      List<WebElement>l= s2.getAllSelectedOptions();
+        for (WebElement web:l) {
+
+            System.out.println(web.getText());
+
+        }
 
 
 
